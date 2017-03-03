@@ -1,0 +1,61 @@
+{
+  "name": "Content",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "Customer",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "customer"
+    },
+    {
+      "accessType": "*",
+      "principalType": "Vendor",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "vendor"
+    }
+  ],
+  "methods": {
+    "customer": {
+      "accepts": [],
+      "returns": {
+        "arg": "result",
+        "type": "string",
+        "root": true
+      },
+      "description": "Get the content for the customers",
+      "http": {
+        "path": "/customer",
+        "verb": "GET"
+      }
+    },
+    "vendor": {
+      "accepts": [],
+      "returns": {
+        "arg": "result",
+        "type": "string",
+        "root": true
+      },
+      "description": "Get the content for the vendors",
+      "http": {
+        "path": "/vendor",
+        "verb": "GET"
+      }
+    }
+  }
+}

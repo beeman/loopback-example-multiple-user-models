@@ -47,5 +47,9 @@
   "MultiAccessToken": {
     "dataSource": "db",
     "public": false
+  },
+  "Content": {
+    "dataSource": null,
+    "public": true
   }
 }
