@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -32,6 +33,18 @@
     }
   },
   "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Vendor": {
+    "dataSource": "db",
+    "public": true
+  },
+  "MultiAccessToken": {
     "dataSource": "db",
     "public": false
   }

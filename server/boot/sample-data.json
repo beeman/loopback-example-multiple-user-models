@@ -1,0 +1,12 @@
+{
+  "Customer": [
+    {"id": "1", "username": "customer1@example.com", "email": "customer1@example.com", "password": "password"},
+    {"id": "2", "username": "customer2@example.com", "email": "customer2@example.com", "password": "password"},
+    {"id": "3", "username": "customer3@example.com", "email": "customer3@example.com", "password": "password"}
+  ],
+  "Vendor": [
+    {"id": "1", "username": "vendor1@example.com", "email": "vendor1@example.com", "password": "password"},
+    {"id": "2", "username": "vendor2@example.com", "email": "vendor2@example.com", "password": "password"},
+    {"id": "3", "username": "vendor3@example.com", "email": "vendor3@example.com", "password": "password"}
+  ]
+}
