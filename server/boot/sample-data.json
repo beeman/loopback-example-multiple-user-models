@@ -8,5 +8,13 @@
     {"id": "1", "username": "vendor1@example.com", "email": "vendor1@example.com", "password": "password"},
     {"id": "2", "username": "vendor2@example.com", "email": "vendor2@example.com", "password": "password"},
     {"id": "3", "username": "vendor3@example.com", "email": "vendor3@example.com", "password": "password"}
+  ],
+  "MultiAccessToken": [
+    {"id":"customer-token-1","ttl":1209600, "userId":1,"principalType":"Customer"},
+    {"id":"customer-token-2","ttl":1209600, "userId":2,"principalType":"Customer"},
+    {"id":"customer-token-3","ttl":1209600, "userId":3,"principalType":"Customer"},
+    {"id":"vendor-token-1","ttl":1209600, "userId":1,"principalType":"Vendor"},
+    {"id":"vendor-token-2","ttl":1209600, "userId":2,"principalType":"Vendor"},
+    {"id":"vendor-token-3","ttl":1209600, "userId":3,"principalType":"Vendor"}
   ]
 }
