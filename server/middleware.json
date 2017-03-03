@@ -31,13 +31,7 @@
     }
   },
   "session": {},
-  "auth": {
-    "loopback#token": {
-      "params": {
-        "model": "MultiAccessToken"
-      }
-    }
-  },
+  "auth": {},
   "parse": {},
   "routes": {
     "loopback#rest": {
